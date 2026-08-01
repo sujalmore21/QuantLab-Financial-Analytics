@@ -34,17 +34,35 @@ QuantLab is an interactive quantitative analytics and portfolio optimization pla
 
 ## ✨ Key Features
 
-* **Monte Carlo Optimization Engine:** Simulates 5,000+ candidate portfolio allocations across multi-asset universes.
+* **Monte Carlo Optimization Engine:** Simulates 5,000+ candidate portfolio allocations across multi-asset universes in real time.
 * **Efficient Frontier Mapping:** Visually identifies Maximum Sharpe Ratio and Minimum Risk portfolios.
 * **Risk & Performance Analytics:** Tracks annualized returns, volatility, Sharpe ratio, max drawdown, and cross-asset correlation heatmaps.
-* **Automated PDF Export:** Generates downloadable, institutional-grade summary reports on demand.
+* **Automated PDF Export:** Generates downloadable, institutional-grade executive summary reports on demand.
 
 ---
 
-## 💡 Key Analytical Insights
+## 💡 Key Company-Specific Insights & Takeaways
 
-* **Max Sharpe Portfolio (Sharpe 1.32 | Return 39.64%):** Concentrates ~80% of total capital into high-alpha growth drivers (`$GOOGL`, `$NVDA`, `$JNJ`, `$TSLA`).
-* **Minimum Risk Portfolio (Volatility 19.57% | Return 19.50%):** Slashes high-beta assets (`$NVDA` drops from 20.55% → 0.28%) and rotates heavily into defensive staples (`$JNJ`, `$KO`, `$AMZN`).
+* **Max Sharpe Growth Driver (Alphabet, NVIDIA, J&J, Tesla):** 
+  To achieve maximum risk-adjusted growth (Sharpe 1.32 | Return 39.64%), the algorithm concentrates **~80% of total capital** into just four companies:
+  * **Alphabet Inc. ($GOOGL):** 20.92%
+  * **NVIDIA ($NVDA):** 20.55%
+  * **Johnson & Johnson ($JNJ):** 20.09%
+  * **Tesla ($TSLA):** 18.70%
+
+* **Minimum Risk Volatility Penalty (Slashing NVIDIA & Tesla):**
+  When optimizing purely for capital preservation and volatility reduction (19.57% Volatility), the algorithm heavily penalizes high-beta stocks:
+  * **NVIDIA ($NVDA)** gets ruthlessly slashed from **20.55% → 0.28%**
+  * **Tesla ($TSLA)** gets cut from **18.70% → 1.51%**
+
+* **Defensive Safe Havens (Johnson & Johnson, Coca-Cola, Amazon):**
+  Capital reallocated away from tech volatility rotates straight into defensive anchors:
+  * **Johnson & Johnson ($JNJ)** acts as the primary anchor across both models (~20.09% in Max Sharpe → **22.21%** in Min Risk).
+  * **The Coca-Cola Company ($KO)** surges to **20.16%** allocation.
+  * **Amazon ($AMZN)** climbs to **13.29%** allocation.
+
+* **Risk Efficiency Trade-off:**
+  Moving from *Minimum Risk* to *Max Sharpe* trades an **+8.84% increase in volatility** for a **+20.14% boost in annual return** (~2.28% extra return per 1% extra risk).
 
 ---
 
