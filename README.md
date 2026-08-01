@@ -6,21 +6,29 @@ QuantLab is an interactive quantitative analytics and portfolio optimization pla
 
 ## 📸 Platform Previews
 
-### 📊 Dashboard
-![Dashboard](assets/dashboard.png)
+### 📊 Dashboard Overview
+<p align="center">
+  <img src="assets/dashboard.png" alt="QuantLab Dashboard" height="380">
+</p>
+
+---
 
 ### 🎯 Portfolio Optimizer (Monte Carlo Efficient Frontier)
-![Optimizer](assets/optimizer.png)
+<p align="center">
+  <img src="assets/optimizer.png" alt="QuantLab Optimizer" height="380">
+</p>
 
-### 📈 Performance & Risk Analytics
-| Performance Overview | Risk Analytics & Heatmap |
-| :---: | :---: |
-| ![Performance](assets/performance.png) | ![Risk](assets/risk.png) |
+---
 
-### 💼 Portfolio Weights & PDF Reports
-| Portfolio Allocation | Institutional PDF Report |
+### 📈 Analytics & Reporting
+
+| Performance Analytics | Risk Diagnostics & Heatmap |
 | :---: | :---: |
-| ![Portfolio](assets/portfolio.png) | ![Reports](assets/reports.png) |
+| <img src="assets/performance.png" alt="Performance" height="320"> | <img src="assets/risk.png" alt="Risk Analytics" height="320"> |
+
+| Portfolio Allocation & Weights | Institutional PDF Report |
+| :---: | :---: |
+| <img src="assets/portfolio.png" alt="Portfolio Weights" height="320"> | <img src="assets/reports.png" alt="Generated Reports" height="320"> |
 
 ---
 
